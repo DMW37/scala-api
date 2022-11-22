@@ -5,7 +5,7 @@ package com.study.hello
  * @date: 2022/11/22
  * @description:
  */
-object StringTest {
+object Test02StringTest {
   def main(args: Array[String]): Unit = {
     /**
      * 双引号

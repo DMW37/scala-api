@@ -5,7 +5,7 @@ package com.study.hello
  * @date: 2022/11/22
  * @description:
  */
-object HelloWorld {
+object Test01HelloWorld {
   def main(args: Array[String]): Unit = {
     println("hello world","china")
 
