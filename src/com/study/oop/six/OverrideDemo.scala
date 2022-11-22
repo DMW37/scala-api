@@ -10,10 +10,12 @@ object OverrideDemo {
   class Person {
     val name = "张三"
     var age = 18
+
     def sayHello(): Unit = println(s"大家好，我是${name}，今年${age}。Person")
   }
+
   // 子类
-  class Student extends Person{
+  class Student extends Person {
     // 重新父类属性
     override val name = "李四";
     // 以下代码会报错 variable age cannot override a mutable variable
