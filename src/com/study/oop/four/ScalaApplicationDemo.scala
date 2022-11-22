@@ -21,7 +21,8 @@ object ScalaApplicationDemo {
   }
 
   object ScalaApplication {
-    private[this] val APP_NAME = "Scala 从入门到入坟"
+    //private[this] val APP_NAME = "Scala 从入门到入坟"
+    private val APP_NAME = "Scala 从入门到入坟"
   }
 
   def main(args: Array[String]): Unit = {
