@@ -9,6 +9,9 @@ object PersonDemo {
   def main(args: Array[String]): Unit = {
     // 创建 Person 类型的对象
     val person = new Person()
-    print(person)
+    println(person.name)
+    println(person.age)
+    println(person.address)
+    println(person.phone)
   }
 }

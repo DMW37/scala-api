@@ -6,5 +6,14 @@ package com.study.oop.one
  * @description: 创建 Person 类
  */
 class Person {
+  // 定义成员属性
+  //val name:String = "zhangsan"
+  val name = "zhangsan"
+  //val age:Int = 18
+  val age = 18
+
+  // 使用 _ 初始化成员变量时，变量必须声明数据类型
+  var address:String=_ //null
+  var phone:Int =_ //0
 
 }
