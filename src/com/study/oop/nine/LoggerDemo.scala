@@ -37,6 +37,11 @@ object LoggerDemo {
     override def log(msg: String): Unit = println(s"$msg")
   }
 
+  // 单例对象继承 Logger 特质，重写 info 方法打印消息
+  object ConsoleLogger extends Logger {
+    override def log(msg: String): Unit = println(msg)
+  }
+
   def main(args: Array[String]): Unit = {
     val logger = new ConsoleLogger
     logger.log("项目正在运行..........")
