@@ -16,4 +16,13 @@ class Person {
   var address:String=_ //null
   var phone:Int =_ //0
 
+  def eat():Unit={
+    println("eat")
+  }
+  def sleep(): Unit = {
+    println("睡觉")
+  }
+  def hello(): Unit = {
+    println(s"name = ${name}，age = ${age}")
+  }
 }

@@ -13,5 +13,10 @@ object PersonDemo {
     println(person.age)
     println(person.address)
     println(person.phone)
+
+    // 访问成员方法
+    person.eat()
+    person.sleep()
+    person.hello()
   }
 }
