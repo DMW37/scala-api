@@ -1,0 +1,15 @@
+格式一：文件顶部标记法，合并版
+package com.study.packages
+
+格式二：文件顶部标记法，分解版
+package com.study
+package packages
+
+格式三：串联式包语句
+package com.study {
+    package packages {
+        // 这里写类，特质等
+   }
+}
+
+
