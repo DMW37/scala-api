@@ -20,3 +20,19 @@ package com.study {
 问上层的类，可通过上层路径 + 类名的形式实现。
 
 
+导入包
+　在 Scala 中，导入包也是通过关键字 import 来实现，但是 Scala 中的 import 功能更加强大，更加灵活，它不再局限
+于编写到 Scala 文件的顶部，而是可以编写到 Scala 文件中任何你需要的地方。且 Scala 默认引入了 java.lang 包，
+scala 包，以及 Predef 包
+
+1.Scala 中并不是完全引入了 scala 包和 Predef 包中的所有内容，它们中的部分内容在使用时依旧需要先导包。例
+如： import scala.io.StdIn 。
+2.import 语句可以写到 scala 文件中任何需要用到的地方，好处是：缩小 import 包的作用范围，从而提高效率。
+在 Scala 中，如果要导入某个包中所有的类和特质，需要通过下划线 _ 来实现。例如： import scala._ 的意思是
+导入 scala 包下的所有内容。
+3.如果仅仅是需要某个包中的某几个类或者特质，则可以通过选取器（大括号 {} ）来实现。例如： import
+scala.collection.mutable.{HashSet, TreeSet} 的意思是只引入 HashSet 和 TreeSet 。
+4.如果引入的多个包中含有相同的类，则可以通过 重命名或者隐藏 的方式解决。
+    重命名的格式： import 包名1.包名2.{原始类名 => 新类名, 原始类名 => 新类名}
+    隐藏的格式： import java.util.{HashSet => _, _} 表示引入 java.util 包下除了 HashSet 之外所有的内容
+
