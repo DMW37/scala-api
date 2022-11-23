@@ -6,5 +6,4 @@ package com.study.oop.ten.adapter
  * @description:
  */
 class Player {
-
 }
