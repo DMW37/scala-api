@@ -1,8 +1,8 @@
-package com.study.collectionstudy
+package com.study.collectionstudy.traversablestudy
 
 /**
-* 聚合操作
-*/
+ * 聚合操作
+ */
 object AggregateDemo {
   def main(args: Array[String]): Unit = {
     // 定义一个 Traversable 集合，包含 1, 2, 3, 4, 5, 6
@@ -19,5 +19,5 @@ object AggregateDemo {
     println(t.max)
     // 通过 min 方法获取集合中所有元素的最小值
     println(t.min)
- }
+  }
 }

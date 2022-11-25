@@ -1,8 +1,8 @@
-package com.study.collectionstudy
+package com.study.collectionstudy.traversablestudy
 
 /**
-* 类型转换
-*/
+ * 类型转换
+ */
 object ConvertDemo {
   def main(args: Array[String]): Unit = {
     // 定义一个 Traversable 集合，包含 1, 2, 3, 4, 5, 6
@@ -12,5 +12,5 @@ object ConvertDemo {
     println(t.toList) // List(1, 2, 3, 4, 5, 6)
     println(t.toSet) // Set(5, 1, 6, 2, 3, 4)
     println(t.toSeq)
- }
+  }
 }

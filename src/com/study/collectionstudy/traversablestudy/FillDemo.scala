@@ -1,4 +1,4 @@
-package com.study.collectionstudy
+package com.study.collectionstudy.traversablestudy
 
 /**
  * 填充元素

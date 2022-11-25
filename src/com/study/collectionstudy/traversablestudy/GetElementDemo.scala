@@ -1,8 +1,8 @@
-package com.study.collectionstudy
+package com.study.collectionstudy.traversablestudy
 
 /**
-* 获取元素
-*/
+ * 获取元素
+ */
 object GetElementDemo {
   def main(args: Array[String]): Unit = {
     // 定义一个 Traversable 集合，包含 1, 2, 3, 4, 5, 6
@@ -21,5 +21,5 @@ object GetElementDemo {
     // 通过 slice 方法获取 3, 4, 5 并将它们放到一个新的 Traversable 集合
     val result3 = t.slice(2, 5) // 左闭右开
     println(s"result3 = ${result3}")
- }
+  }
 }

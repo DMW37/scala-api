@@ -1,4 +1,4 @@
-package com.study.collectionstudy
+package com.study.collectionstudy.traversablestudy
 
 /**
  * 矩阵转置
