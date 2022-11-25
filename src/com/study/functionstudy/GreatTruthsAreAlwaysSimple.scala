@@ -72,9 +72,7 @@ object GreatTruthsAreAlwaysSimple {
     //  for (i <- result1) println(i)
 
     // 如果参数只出现一次，且方法体或函数体没有嵌套使用参数，则参数可以用下划线 _ 来替代
-    val result2: Int = list.reduce((x, y) => x + y)
-    println(result2)
-    val result3: Int = list.reduce(_ + _)
-    println(result3)
+    val result2: Int = list.reduce((x, y) => x + y);
+    val result3: Int = list.reduce(_ + _);
   }
 }
