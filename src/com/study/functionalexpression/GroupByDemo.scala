@@ -1,8 +1,8 @@
 package com.study.functionalexpression
 
 /**
-* 分组
-*/
+ * 分组
+ */
 object GroupByDemo {
   def main(args: Array[String]): Unit = {
     // 定义一个列表，包含了学生的姓名和性别：`"张三" -> "男"`，`"李四" -> "女"`，`"王五" -> "男"`
@@ -17,5 +17,5 @@ object GroupByDemo {
     val count1 = result2.map(kv => kv._1 -> kv._2.size)
     println(s"count = ${count1}")
     // 因为 kv 出现了两次，所以无法优化为简写形式，因为每一个下划线代表一个参数
- }
+  }
 }
