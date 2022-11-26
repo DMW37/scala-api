@@ -28,6 +28,6 @@ object FoldDemo {
     // 如果做相减操作的话那结果就不一样了（fold 和 foldLeft 还是一样的）
     println(list.fold(10)(_ - _))
     println(list.foldLeft(100)(_ - _))
-    println(list.foldRight(100)(_ - _))
+    println(list.foldRight(10)(_ - _))
   }
 }
