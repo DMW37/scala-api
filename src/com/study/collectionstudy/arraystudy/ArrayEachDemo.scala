@@ -30,7 +30,6 @@ object ArrayEachDemo {
     println("=" * 20, "华丽的分割线", "=" * 20)
     // foreach
     arr.foreach(x => println(x))
-    arr.foreach(_ => println(_))
     arr.foreach(println)
 
   }
