@@ -9,5 +9,9 @@ object ForeachDemo {
     })
     // 简写版
     list.foreach(elem => println(elem))
+
+    // 使用下划线简化函数定义
+    list.foreach(println(_))
+    list.foreach(println)
   }
 }
